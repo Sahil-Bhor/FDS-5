@@ -1,5 +1,6 @@
 str1 = input("Enter a word/sentence : ")
-str2 = ""
+str2 = "" # an empty string
+
 for i in str1:
     str2 = i + str2
 if str1 == str2:
